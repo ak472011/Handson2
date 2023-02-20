@@ -1,0 +1,17 @@
+.d{
+
+    font-size: 50px;
+
+    color:#333333;
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .firstnav{
+
+        margin-left:24rem;
+
+    }
+
+}
