@@ -1,403 +1,56 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-  <meta charset="UTF-8">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Layout Specification</title>
-
-  <link rel="stylesheet" href="../CSS/style.css">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar1">
+        <div class="container-fluid py-3">
+            <a href="#" class="navbar-brand px-4 h-5 text-light fs-1">eStore</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Navbar -->
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary text-white">
-
-    <div class="container-fluid py-4 " style="background-color: #333;">
-
-      <a class="navbar-brand px-4 h-5 text-white fs-1 " href="#">eStore</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-
-        <span class="navbar-toggler-icon"></span>
-
-      </button>
-
-      <div class="collapse navbar-collapse firstnav" id="navbarTogglerDemo03">
-
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-          <li class="nav-item mx-4">
-
-            <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-
-          </li>
-
-          <li class="nav-item mx-4 ">
-
-            <a class="nav-link text-white" aria-current="page" href="#">My Account</a>
-
-          </li>
-
-          <li class="nav-item mx-4">
-
-            <a class="nav-link text-white" href="#">Wishlist</a>
-
-          </li>
-
-          <li class="nav-item mx-4">
-
-            <a class="nav-link text-white">Shopping</a>
-
-          </li>
-
-          <li class="nav-item mx-4 ">
-
-            <a class="nav-link text-white">Cart</a>
-
-          </li>
-
-          <li class="nav-item mx-4 ">
-
-            <a class="nav-link text-white">Checkout</a>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-  </nav>
-
-  <main>
-
-    <div class="container-fluid" style="background-color: lightgray;">
-
-      <div class="row">
-
-        <div class="col-12 col-lg-6 col-md-9 col-sm-12">
-
-          <img class="img-fluid" src="../Images/mask.jpg" alt="MaskImg">
-
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#MyAccount" class="nav-link">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Wishlist" class="nav-link">Wishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Shopping" class="nav-link">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Cart" class="nav-link">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Checkout" class="nav-link">Checkout</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div class="col-12 col-lg-3 col-md-4 col-sm-12 mt-5">
 
-          <h1>STAY HOME, <br> STAY SAFE.</h1>
 
-        </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-        <div class="col-12 col-lg-3 col-md-6 col-sm-12 mt-4">
+    
 
-          <p>Contactless Delieveries</p>
-
-          <p>All delievery staff trained in COVID-19 preventive mseasures.</p>
-
-          <p>All Delievery and Warehouse are equipped with medical-grade hand santizers</p>
-
-          <p>All warehouse staff undergo daily mandatory thermal temperature scanning</p>
-
-          <p>No delieveries in &rsquo;highly affected &rsquo; areas</p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </main>
-
-    <div class="container mt-4">
-
-      <h4><span class="d">D</span>eals of the day</h4>
-
-      <div class="row">
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Sports &amp; fitness gear upto 80% off</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Branded jeans upto 50% off</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Branded T-shirts upto 60% off</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Sports &amp; fitness gear upto 50% off</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Branded kids T shirts upto 40% off</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Sports girls T-shirt upto 50% off</p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="container  mt-4">
-
-      <h4 class="mb-4"><span class="d">F</span>ashion Categories</h4>
-
-      <div class="row">
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Kurtas</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6   mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Shirts</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Pants</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Tshirts</p>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Shoes</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Casual Shirts</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>JEANS</p>
-
-        </div>
-
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6  mb-3 ">
-
-          <img class="img-fluid" src="../Images/placeholder.png" alt="placeholderImg">
-
-          <p>Tops</p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="container brand mt-5 mb-4">
-
-      <div class="row">
-
-        <div class="col">
-
-          <p>Adidas | Arrow | Fila | Online-shopping | Nike | Pepe-jeans | Puma | United Colors of Benetton | Fastrack |
-
-            shorts | being Human | Skirts | Woodland | H&amp;M </p>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col">
-
-          <p>Adidas | Arrow | Fila | Online-shopping | Nike | Pepe-jeans | Puma | United Colors of Benetton | Fastrack |
-
-            shorts | being Human | Skirts | Woodland | H&amp;M </p>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col">
-
-          <p>Adidas | Arrow | Fila | Online-shopping | Nike | Pepe-jeans | Puma | United Colors of Benetton | Fastrack |
-
-            shorts | being Human | Skirts | Woodland | H&amp;M </p>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col">
-
-          <p>Adidas | Arrow | Fila | Online-shopping | Nike | Pepe-jeans | Puma | United Colors of Benetton | Fastrack |
-
-            shorts | being Human | Skirts | Woodland | H&amp;M </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  <footer class="bg-dark">
-
-    <div class="container text-white">
-
-      <div class="row ">
-
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-4">
-
-          <h5>MY ACCOUNT</h5>
-
-          <P>Order</P>
-
-          <p>Returns/refund</p>
-
-          <p>Track Order</p>
-
-          <p>Frequently Asked Question</p>
-
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-4">
-
-          <h5>POLICIES</h5>
-
-          <p>Payment options</p>
-
-          <p>Terms &amp; Condition of use</p>
-
-          <p>Terms &amp; Condition of Membership Program</p>
-
-          <p>Others terms &amp; Conditions</p>
-
-          <p>Return &amp; exchange policy</p>
-
-          <p>Shipping Policy</p>
-
-          <p>Privacy Policy</p>
-
-          <p>Safety CheckList</p>
-
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-4">
-
-          <h5>CONTACT US</h5>
-
-          <p>Customer Support</p>
-
-          <p>Store Locators</p>
-
-          <p>Help center</p>
-
-          <h5>ABOUT US</h5>
-
-          <p>Official Brand Store</p>
-
-          <p>About Us</p>
-
-          <p>Career</p>
-
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-4">
-
-          <h5>SOCIAL</h5>
-
-          <p>Facebook</p>
-
-          <p>Twitter</p>
-
-          <p>YouTube</p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-
-    crossorigin="anonymous"></script>
-
+    
 </body>
-
-</html> 
+</html>
