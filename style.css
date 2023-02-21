@@ -1,17 +1,20 @@
-.d{
-
-    font-size: 50px;
-
-    color:#333333;
-
+.navbar-brand{
+    color: grey;
+}
+.nav-link:hover{
+    color: blue;
 }
 
-@media screen and (min-width: 800px) {
-
-    .firstnav{
-
-        margin-left:24rem;
-
-    }
-
+body{
+    font-family: Calibri;
 }
+
+.input-group{
+    width: 250px;
+}
+.navbar1{
+    background-color: #333333;
+    color: white;
+}
+
+
